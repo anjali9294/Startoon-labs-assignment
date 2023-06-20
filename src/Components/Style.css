@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.outer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.box {
+  height: 10em;
+  width: 4em;
+  border: 1px solid grey;
+  margin: 2px;
+}
+.box-click {
+}
+.outer-most {
+  width: 600px;
+  border: 2px solid grey;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+h4 {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.confirmation-box {
+  border: 1px solid gray;
+  width: 600px;
+}
+.box-color1 {
+  height: 60px;
+  width: 30px;
+  border: 1px solid green;
+}
+.box-color2 {
+  height: 60px;
+  width: 30px;
+  border: 1px solid red;
+}
+.box-color3 {
+  height: 60px;
+  width: 30px;
+  background-color: green;
+}
+.box-color4 {
+  height: 60px;
+  width: 30px;
+  background-color: gray;
+}
+.box-color5 {
+  height: 60px;
+  width: 30px;
+  border: 1px solid red;
+  background-color: gray;
+}
+.color-title {
+  padding-top: 12px;
+  font-weight: 600;
+}
+
+.chartWrap {
+  float: left;
+  position: relative;
+  width: 25%;
+  background: white;
+  height: 330px;
+  border: 1px solid silver;
+  margin: 0 4%;
+}
+#onFeedChart {
+  height: 100%;
+}
